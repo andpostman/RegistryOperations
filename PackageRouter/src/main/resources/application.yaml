@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: dbb_admin
+    password: admin
+web-client:
+  package-processor:
+    url: "http://localhost:8082"
