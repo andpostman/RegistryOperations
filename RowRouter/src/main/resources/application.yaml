@@ -1,0 +1,13 @@
+server:
+  port: 8083
+spring:
+  artemis:
+    user: developer
+    password: developer
+    brokerUrl: tcp://localhost:61616
+jms:
+  queue:
+    destination: packagerow
+web-client:
+  row-processor:
+    url: "http://localhost:8084"
