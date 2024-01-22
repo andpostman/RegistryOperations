@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  artemis:
+    user: developer
+    password: developer
+    brokerUrl: tcp://localhost:61616
+jms:
+  queue:
+    destination: check
