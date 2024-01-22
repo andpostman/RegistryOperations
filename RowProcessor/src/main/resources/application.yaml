@@ -1,0 +1,8 @@
+logPath: messages
+server:
+  port: 8084
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: dbb_admin
+    password: admin
